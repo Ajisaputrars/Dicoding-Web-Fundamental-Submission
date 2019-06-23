@@ -7,13 +7,17 @@ img {
   height: 150px;
   weight: 125px;
   border-radius: 30px;
+  margin-top: 10px;
 
 }
+
 .photo{
-  background-color: #FFBABA;
+  /*background-color: #FFBABA;*/
+  background-color: orange;
   /*max-width: 80%;*/
   border-radius: 50px;
   text-align: center;
+  margin-top: 10px;
 }
 .bio p span {
   text-transform: uppercase;
@@ -21,13 +25,37 @@ img {
 }
 
 .bio p{
-  background-color: green;
+  background-color: lightblue;
     border-radius: 5px;
 
 }
 .desc{
   text-indent: 1%;
   /*max-width: 80%;*/
-  background-color: #FF7B7B
+  background-color: yellow;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
 }
