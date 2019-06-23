@@ -1,0 +1,33 @@
+h4 {
+  text-transform: uppercase;
+  color: black;
+}
+
+img {
+  height: 150px;
+  weight: 125px;
+  border-radius: 30px;
+
+}
+.photo{
+  background-color: #FFBABA;
+  /*max-width: 80%;*/
+  border-radius: 50px;
+  text-align: center;
+}
+.bio p span {
+  text-transform: uppercase;
+  display: block;
+}
+
+.bio p{
+  background-color: green;
+    border-radius: 5px;
+
+}
+.desc{
+  text-indent: 1%;
+  /*max-width: 80%;*/
+  background-color: #FF7B7B
+  color: white;
+}
